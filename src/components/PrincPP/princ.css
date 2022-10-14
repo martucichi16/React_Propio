@@ -1,0 +1,49 @@
+#principiantes {
+    margin:0 30px 30px 30px;
+    padding:20px;
+}
+
+#principiantes h1{
+    background-color: rgb(230, 248, 231);
+    text-align: center;
+    padding: 0 20px;
+}
+
+#principiantes h5{
+    height: 35px;
+    color: rgb(38, 145, 65);
+}
+
+#principiantes p{
+    width: auto;
+    height: 130px;
+    text-align: center;
+}
+
+#principiantes img{
+    width: 100%;
+    height: 135px
+}
+
+.bouncing_icons {
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+.card {
+    background-color: rgb(249, 250, 217);
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-body {
+    text-align: center;
+}
+
+@media screen and (max-width:700px) {
+    #principiantes p{
+        height: 110px;
+    }
+}

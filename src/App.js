@@ -1,19 +1,10 @@
-import { VarConstLet } from "./components/fundamentos/01-VarConstLet";
-import { TemplateString } from "./components/fundamentos/02-TemplateString";
-
 import './App.css'
-import { JsFunction } from "./components/fundamentos/05-JsFunction";
-import { ObjetosLiterales } from "./components/fundamentos/03-Object";
-import { JsArray } from "./components/fundamentos/04-Array";
-
-import { CardGrid } from "./components/CardGrid/CardGrid";
-import { productos } from "./data/productos";
-import { DesestObj } from "./components/fundamentos/06-DesestObj";
-import { MiPrimerComp } from "./components/MiPrimerComp/MiPrimerComp";
-import { DesestArray } from "./components/fundamentos/07-DesestArray";
-
 import { NavBar } from "./components/NavBarPP/NavBar"
-import { HeroBanner } from"./components/HeroBannerPP/HeroBanner"
+import { Bienv } from "./components/BienvPP/Bienv"
+import { Princ} from "./components/PrincPP/Princ"
+import { Nac } from "./components/NacPP/Nac"
+import { Dieta } from "./components/DietaPP/Dieta"
+import { Opinion } from "./components/OpinionPP/Opinion"
 import { Footer } from"./components/FooterPP/Footer"
 
 
@@ -23,22 +14,26 @@ function App() {
     <>
 
       <NavBar/>
-      <HeroBanner/>
+      <Bienv/>
+      <Princ/>
+      <Nac/>
+      <Dieta/>
+      <Opinion/>
       <Footer/>
 
-      {/* <MiPrimerComp /> */}
-      {/* <VarConstLet /> */}
-      {/* <TemplateString /> */}
-      {/* <ObjetosLiterales /> */}
-      {/* <JsArray />  */}
-      {/* Aplicación de .map */}
+
       {/* <CardGrid data={productos}  /> */}
-      {/* <JsFunction /> */}
-      {/* <DesestObj /> */}
-      {/* <DesestArray /> */}
       
     </>
   );
 }
 
 export default App;
+
+/* Falta o raro:
+-Iconos
+-Imagenes
+-Todo lo dinamico está por encima del header :( 
+  
+Para el nav queria hacer lo de los dropdowns con un if: si el dropdown=false, hacer lo que hice, si es true
+iterar la lista con los valores y armar el dropdown*/

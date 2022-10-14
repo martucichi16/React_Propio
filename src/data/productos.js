@@ -39,15 +39,30 @@ const productos = [
 const navButtons =[
     {
         link: 'https://google.com.ar',
-        text: 'Home',
+        text: 'Inicio',
+        dropdown: false,
     },
     {
         link: '#',
-        text: 'Tema 01',
+        text: 'Conocenos',
+        dropdown: false,
     },
     {
         link: '#',
-        text: 'Contactos',
+        text: 'Recetas Saladas',
+        dropdown: true,
+        dropdown_items: ["Entradas", "Pastas", "Carnes", "Ensaladas", "Sopas", "Otros"]
+    },
+    {
+        link: '#',
+        text: 'Recetas Dulces',
+        dropdown: true,
+        dropdown_items: ["Tortas y Budines", "Galletitas", "Tartas dulces", "Postres", "Helados", "Otros"]
+    },
+    {
+        link: '#',
+        text: 'Tienda',
+        dropdown: false,
     },
 ]
 

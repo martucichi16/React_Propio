@@ -1,0 +1,38 @@
+#bienvenida {
+    /* background-image: url(./assets/img/cocinando.jpg); */
+    background-position: center;
+    margin: 50px auto;
+    padding: 70px;
+}
+
+#bienvenida h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#bienvenida div{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#bienvenida p{
+    width: 50%;
+    text-align: center;
+}
+
+#bienvenida p b{
+    color:rgb(38, 145, 65);
+}
+
+@media screen and (max-width:700px) {
+    #bienvenida {
+        margin: 5%;
+        padding: 5%;
+        max-width: fit-content;
+    }
+    
+    #bienvenida p {
+        width: 90%;
+    }
+}
